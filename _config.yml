@@ -178,12 +178,12 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: Lahore University of Management Sciences
         caption: 2022 - 2026
         sub_title: Bachelor of Science - BS, Computer Science
 
-      - layout: left
+      - layout: top-middle
         title: Harris Westminster Sixth Form
         caption: 2019 - 2021
         sub_title: A-Levels
