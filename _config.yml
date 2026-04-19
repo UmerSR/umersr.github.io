@@ -22,7 +22,7 @@ github_username: UmerSR
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-# linkedin_username: umerraja2003
+linkedin_username: umerraja2003
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -61,6 +61,10 @@ content:
         title: ContinuumAI
         link: https://github.com/UmerSR/P13-ContinuumAI
         github: P13-ContinuumAI
+        additional_links:
+          - title: UmerSR/P13-ContinuumAI
+            icon: fab fa-github
+            url: github.com/UmerSR/P13-ContinuumAI
         quote: >
           AI-native decision intelligence platform combining conversational analytics, chart generation, profiling, and strategy-aware workflows.
         description: |
@@ -71,7 +75,7 @@ content:
     
       - layout: top-middle
         title: Early Alzheimer's Disease Detection using BioMedCLIP
-        link: github.com/UmerSR/CS-437-Final-Project
+        link: https://github.com/UmerSR/CS-437-Final-Project
         github: CS-437-Final-Project
         additional_links:
           - title: UmerSR/CS-437-Final-Project
@@ -88,6 +92,11 @@ content:
         title: Self-Play Reinforcement Learning Without Tree Search in Connect Four
         link: https://github.com/UmerSR/Connect-Four-RL
         github: Connect-Four-RL
+        additional_links:
+          - title: UmerSR/Connect-Four-RL
+            icon: fab fa-github
+            url: github.com/UmerSR/Connect-Four-RL
+
         quote: >
           End-to-end reinforcement learning experiments for Connect Four using self-play agents, analysis notebooks, and a playable GUI.
         description: |
