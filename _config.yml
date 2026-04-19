@@ -91,7 +91,7 @@ content:
         quote: >
           End-to-end reinforcement learning experiments for Connect Four using self-play agents, analysis notebooks, and a playable GUI.
         description: |
-          Built a Connect Four reinforcement learning project featuring a custom `rl_connect4` environment, multiple self-play agents, and experiment pipelines using PPO, DQN, and REINFORCE. The repository includes training notebooks, saved model artifacts, evaluation and comparison notebooks, and an interactive GUI for playing against trained agents.
+          Built a Connect Four reinforcement learning project featuring a custom environment, multiple self-play agents, and experiment pipelines using PPO, DQN, and REINFORCE. The repository includes training notebooks, saved model artifacts, evaluation and comparison notebooks, and an interactive GUI for playing against trained agents.
 
           Also includes an agent-vs-agent simulator, guided and online opponent modes, and project documentation/checkpoint reports. The repository is structured around reproducible RL experimentation, model comparison, and interactive gameplay.
 
