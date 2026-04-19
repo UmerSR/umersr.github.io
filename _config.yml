@@ -60,7 +60,7 @@ content:
       - layout: left
         title: ContinuumAI
         link: #
-        github: #
+        github: https://github.com/UmerSR/P13-ContinuumAI
         quote: >
           AI-native decision intelligence platform combining conversational analytics, chart generation, profiling, and strategy-aware workflows.
         description: |
@@ -84,7 +84,7 @@ content:
           Integrated EigenCAM for explainability.
 
       - layout: left
-        name: Self-Play Reinforcement Learning Without Tree Search in Connect Four
+        title: Self-Play Reinforcement Learning Without Tree Search in Connect Four
         link: https://github.com/UmerSR/Connect-Four-RL
         github: UmerSR/Connect-Four-RL
         quote: >
