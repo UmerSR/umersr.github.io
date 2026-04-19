@@ -6,34 +6,34 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Umer Raja
+title: AI/ML/DL Analyst | Audio Engineer 
+email: umerraja2003@gmail.com
+website: github.com/UmerSR
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username: UmerSR
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+linkedin_username: umerraja2003
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+- title: LinkedIn
+  icon: fab fa-linkedin
+  url: https://www.linkedin.com/in/umerraja2003
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,69 +48,129 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  A self-driven and motivated individual seeking further education and professional opportunities in AI/ML/DL and adjacent domains. Prior professional experience as an AI Analyst at a leading IIoT firm in the telecom sector, and as an Audio DSP Engineer at a multinational tech firm. Currently a Senior at LUMS, enrolled in the BS Computer Science programme.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>Python</mark>, <mark>Machine Learning</mark>, <mark>Deep Learning</mark>, <mark>Apache Hadoop/Spark</mark>, <mark>Digital Signal Processing</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+        title: Early Alzheimer's Disease Detection using BioMedCLIP
+        link: github.com/UmerSR/CS-437-Final-Project
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title: UmerSR/CS-437-Final-Project
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: github.com/UmerSR/CS-437-Final-Project
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Worked on developing foundation models integrating DL/CV methodologies with SOTA VLMs for early Alzheimer's Disease detection.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Achieved 93.14% Binary Classification accuracy and 85.27% Multi-Class Classification Accuracy on the OASIS-I Dataset by augmenting BioMedCLIP with a custom classification head and enhanced domain-specific caption generation - outperforming all baselines methods available at the time.
+
+          Integrated EigenCAM for explainability.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        title: The Music Society of LUMS
+        sub_title: President
+        caption: May 2025 - Present
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          President @ The Music Society of LUMS.
+
+      - layout: left
+        title: Computer Vision & Graphics Lab
+        sub_title: Research Intern
+        caption: January 2025 - August 2025
+        description: | # this will include new lines to allow paragraphs
+          Worked on developing foundation models integrating DL/CV methodologies with SOTA VLMs for early Alzheimer's Disease detection.
+
+          Achieved 93.14% Binary Classification accuracy and 85.27% Multi-Class Classification Accuracy on the OASIS-I Dataset by augmenting BioMedCLIP with a custom classification head and enhanced domain-specific caption generation - outperforming all baselines methods available at the time.
+
+          Integrated EigenCAM for explainability.
+
+      - layout: left
+        title: TechGenies
+        sub_title: Audio DSP Engineer
+        caption: June 2024 - August 2025
+        description: | # this will include new lines to allow paragraphs
+          Contributed to the development of an AI-powered DJ system for the FitRadio platform, combining machine learning and digital signal processing to automatically generate workout mixes.
+
+          Built pipelines to extract musical features from raw audio (tempo, rhythmic structure, spectral features) to support intelligent track selection and sequencing.
+
+          Applied ML and DSP techniques to model track compatibility and automated transitions, replicating conventional DJ mixing practices in an automated system.
+
+          Worked with engineering and product teams to translate music theory and DJ heuristics into model-driven logic for automated playlist generation.
+
+      - layout: left
+        title: Lahore University of Management Sciences
+        sub_title: Teaching Assistant
+        caption: September 2024 - December 2024
+        description: | # this will include new lines to allow paragraphs
+          TA for AI 501 - Mathematics for AI, offered by Dr Zubair Khalid as part of the MS Artificial Intelligence programme.
+
+      - layout: left
+        title: Center for Speech and Language Technologies (CSaLT)
+        sub_title: Research Intern
+        caption: February 2024 - December 2024
+        description: | # this will include new lines to allow paragraphs
+          Selected for Research Internship under the supervision of Dr. Agha Ali Raza, with a focus on employing Machine Learning and NLP for socio-economic development.
+
+      - layout: left
+        title: AWT Pakistan (The Askari Group)
+        sub_title: Artificial Intelligence Intern
+        caption: July 2023 - August 2023
+        description: | # this will include new lines to allow paragraphs
+          Assisted in developing industrial smart security solutions, featuring real-time intelligent event detection and object classification.
+
+          Worked with management personnel to develop a roadmap for the development and deployment of suitable ML/DL models.
+
+          Developed a proof of concept system using open source computer vision models such as YOLOv5.
+
+      - layout: left
+        title: INNEXIV (Private) LIMITED
+        sub_title: AI Analyst
+        caption: October 2021 - August 2022
+        description: | # this will include new lines to allow paragraphs
+          Involved in setting up distributed computing platforms with Apache Hadoop and Spark for Big Data handling, as well as PostgreSQL database servers, on CentOS 7 Virtual Machines.
+
+          Responsible for time-series data mining tasks; building event detection models for predictive maintenance of telecommunications equipment.
+
+          Analytics tasks on IoT remote sensing data using Deep Learning methods, achieving over 90% accuracy in various use cases.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: Lahore University of Management Sciences
+        caption: 2022 - 2026
+        sub_title: Bachelor of Science - BS, Computer Science
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: Harris Westminster Sixth Form
+        caption: 2019 - 2021
+        sub_title: A-Levels
+
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Alongside my interests in AI/ML/DL and software engineering some of my other interests and hobbies are:
+      - Music Theory/Performance
+      - Electronic Music Production
+      - Sport
+      - Film
+      - Literature
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Languages:
+      - English (Native or Bilingual)
+      - Spanish (Elementary)
+      - French (Limited Working)
+      - Hindi (Native or Bilingual)
+      - Punjabi (Elementary)
+      - Urdu (Native or Bilingual)
 
 # Footer
 footer_show_references: true
