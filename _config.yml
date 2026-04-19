@@ -57,10 +57,10 @@ content:
     layout: list # Type of content section (list/text)
     content:
 
-      - layout: left
+      - layout: top-middle
         title: ContinuumAI
-        link: #
-        github: https://github.com/UmerSR/P13-ContinuumAI
+        link: https://github.com/UmerSR/P13-ContinuumAI
+        github: P13-ContinuumAI
         quote: >
           AI-native decision intelligence platform combining conversational analytics, chart generation, profiling, and strategy-aware workflows.
         description: |
@@ -72,6 +72,7 @@ content:
       - layout: top-middle
         title: Early Alzheimer's Disease Detection using BioMedCLIP
         link: github.com/UmerSR/CS-437-Final-Project
+        github: CS-437-Final-Project
         additional_links:
           - title: UmerSR/CS-437-Final-Project
             icon: fab fa-github
@@ -83,16 +84,16 @@ content:
 
           Integrated EigenCAM for explainability.
 
-      - layout: left
+      - layout: top-middle
         title: Self-Play Reinforcement Learning Without Tree Search in Connect Four
         link: https://github.com/UmerSR/Connect-Four-RL
-        github: UmerSR/Connect-Four-RL
+        github: Connect-Four-RL
         quote: >
           End-to-end reinforcement learning experiments for Connect Four using self-play agents, analysis notebooks, and a playable GUI.
         description: |
           Built a Connect Four reinforcement learning project featuring a custom `rl_connect4` environment, multiple self-play agents, and experiment pipelines using PPO, DQN, and REINFORCE. The repository includes training notebooks, saved model artifacts, evaluation and comparison notebooks, and an interactive GUI for playing against trained agents.
 
-          Also includes an agent-vs-agent simulator, guided and online opponent modes, and project documentation/checkpoint reports. The repository is structured around reproducible RL experimentation, model comparison, and interactive gameplay. :contentReference[oaicite:0]{index=0}
+          Also includes an agent-vs-agent simulator, guided and online opponent modes, and project documentation/checkpoint reports. The repository is structured around reproducible RL experimentation, model comparison, and interactive gameplay.
 
 
   - title: Experience # Title for the section
