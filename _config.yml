@@ -47,7 +47,7 @@ additional_links:
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
+about_content: |
   A self-driven and motivated individual seeking further education and professional opportunities in AI/ML/DL and adjacent domains. Prior professional experience as an AI Analyst at a leading IIoT firm in the telecom sector, and as an Audio DSP Engineer at a multinational tech firm. Currently a Senior at LUMS, enrolled in the BS Computer Science programme.
 
   I am most skilled in: <mark>Python</mark>, <mark>Machine Learning</mark>, <mark>Deep Learning</mark>, <mark>Apache Hadoop/Spark</mark>, <mark>Digital Signal Processing</mark>
@@ -56,6 +56,19 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+
+      - layout: left
+        title: ContinuumAI
+        link: #
+        github: #
+        quote: >
+          AI-native decision intelligence platform combining conversational analytics, chart generation, profiling, and strategy-aware workflows.
+        description: |
+          Built a full-stack decision intelligence system designed to let users interact with business data through natural language, dynamic charts, and dashboard-style visual workflows. The platform supports conversational analytics, automated chart generation, dataset profiling, KPI/strategy-layer integration, and decision-support utilities such as forecasting, anomaly detection, segmentation, and KPI evaluation.
+
+          Worked across backend and frontend architecture, including typed schemas, orchestration logic, chart workflows, profiling pipelines, strategy configuration, and UX improvements for multi-turn analytical interaction. The system was designed to go beyond static dashboards by combining AI-driven reasoning with structured analytics and business context.
+
+    
       - layout: top-middle
         title: Early Alzheimer's Disease Detection using BioMedCLIP
         link: github.com/UmerSR/CS-437-Final-Project
@@ -65,26 +78,38 @@ content:
             url: github.com/UmerSR/CS-437-Final-Project
         quote: >
           Worked on developing foundation models integrating DL/CV methodologies with SOTA VLMs for early Alzheimer's Disease detection.
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Achieved 93.14% Binary Classification accuracy and 85.27% Multi-Class Classification Accuracy on the OASIS-I Dataset by augmenting BioMedCLIP with a custom classification head and enhanced domain-specific caption generation - outperforming all baselines methods available at the time.
 
           Integrated EigenCAM for explainability.
 
+      - layout: left
+        name: Self-Play Reinforcement Learning Without Tree Search in Connect Four
+        link: https://github.com/UmerSR/Connect-Four-RL
+        github: UmerSR/Connect-Four-RL
+        quote: >
+          End-to-end reinforcement learning experiments for Connect Four using self-play agents, analysis notebooks, and a playable GUI.
+        description: |
+          Built a Connect Four reinforcement learning project featuring a custom `rl_connect4` environment, multiple self-play agents, and experiment pipelines using PPO, DQN, and REINFORCE. The repository includes training notebooks, saved model artifacts, evaluation and comparison notebooks, and an interactive GUI for playing against trained agents.
+
+          Also includes an agent-vs-agent simulator, guided and online opponent modes, and project documentation/checkpoint reports. The repository is structured around reproducible RL experimentation, model comparison, and interactive gameplay. :contentReference[oaicite:0]{index=0}
+
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: The Music Society of LUMS
-        sub_title: President
-        caption: May 2025 - Present
-        description: | # this will include new lines to allow paragraphs
-          President @ The Music Society of LUMS.
+      # - layout: left
+      #   title: The Music Society of LUMS
+      #   sub_title: President
+      #   caption: May 2025 - Present
+      #   description: |
+      #     President @ The Music Society of LUMS.
 
       - layout: left
         title: Computer Vision & Graphics Lab
         sub_title: Research Intern
         caption: January 2025 - August 2025
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Worked on developing foundation models integrating DL/CV methodologies with SOTA VLMs for early Alzheimer's Disease detection.
 
           Achieved 93.14% Binary Classification accuracy and 85.27% Multi-Class Classification Accuracy on the OASIS-I Dataset by augmenting BioMedCLIP with a custom classification head and enhanced domain-specific caption generation - outperforming all baselines methods available at the time.
@@ -95,7 +120,7 @@ content:
         title: TechGenies
         sub_title: Audio DSP Engineer
         caption: June 2024 - August 2025
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Contributed to the development of an AI-powered DJ system for the FitRadio platform, combining machine learning and digital signal processing to automatically generate workout mixes.
 
           Built pipelines to extract musical features from raw audio (tempo, rhythmic structure, spectral features) to support intelligent track selection and sequencing.
@@ -108,21 +133,21 @@ content:
         title: Lahore University of Management Sciences
         sub_title: Teaching Assistant
         caption: September 2024 - December 2024
-        description: | # this will include new lines to allow paragraphs
+        description: |
           TA for AI 501 - Mathematics for AI, offered by Dr Zubair Khalid as part of the MS Artificial Intelligence programme.
 
       - layout: left
         title: Center for Speech and Language Technologies (CSaLT)
         sub_title: Research Intern
         caption: February 2024 - December 2024
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Selected for Research Internship under the supervision of Dr. Agha Ali Raza, with a focus on employing Machine Learning and NLP for socio-economic development.
 
       - layout: left
         title: AWT Pakistan (The Askari Group)
         sub_title: Artificial Intelligence Intern
         caption: July 2023 - August 2023
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Assisted in developing industrial smart security solutions, featuring real-time intelligent event detection and object classification.
 
           Worked with management personnel to develop a roadmap for the development and deployment of suitable ML/DL models.
@@ -133,7 +158,7 @@ content:
         title: INNEXIV (Private) LIMITED
         sub_title: AI Analyst
         caption: October 2021 - August 2022
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Involved in setting up distributed computing platforms with Apache Hadoop and Spark for Big Data handling, as well as PostgreSQL database servers, on CentOS 7 Virtual Machines.
 
           Responsible for time-series data mining tasks; building event detection models for predictive maintenance of telecommunications equipment.
@@ -156,7 +181,7 @@ content:
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: |
       Alongside my interests in AI/ML/DL and software engineering some of my other interests and hobbies are:
       - Music Theory/Performance
       - Electronic Music Production
